@@ -30,25 +30,26 @@ Para este projeto, sua tarefa é marcar usando a sintaxe do HTML5, um formulári
 
 
 
-| Coluna          | Descrição                                                                                                                                                                                                                        |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| numero          | Chave Primária: o número do Pokémon no Pokedex Nacional                                                                                                                                                                          |
-| nome            | Nome do Pokémon                                                                                                                                                                                                                  |
-| tipo1           | Todas as criaturas Pokémon e seus movimentos recebem determinados tipos. Cada tipo tem vários pontos fortes e fracos no ataque e na defesa, ou seja, cada Pokémon tem um tipo que determina sua fraqueza/resistência aos ataques |
-| tipo2           | O tipo secundário do Pokémon caso ele possua                                                                                                                                                                                     |
-| total           | Soma de todas as estatísticas básicas (Pontos de Vida, Ataque, Defesa, Ataque Especial, Defesa Especial e Velocidade)                                                                                                            |
-| hp              | HP (Hit Points ou Health Points), define quanto dano um Pokémon pode suportar antes de desmaiar                                                                                                                                  |
-| ataque          | O ataque base do Pokémon                                                                                                                                                                                                         |
-| defesa          | A defesa base do Pokémon                                                                                                                                                                                                         |
-| ataque_especial | O ataque especial base do Pokémon                                                                                                                                                                                                |
-| defesa_especial | A defesa especial base do Pokémon                                                                                                                                                                                                |
-| velocidade      | A velocidade base do Pokémon                                                                                                                                                                                                     |
-| geracao         | Número da geração em que o Pokémon foi introduzido                                                                                                                                                                               |
-| lendario        | Valor Booleano que indica se o Pokémon é lendário ou não                                                                                                                                                                         |
-| cor             | A cor do Pokémon                                                                                                                                                                                                                 |
-| altura_m        | Altura em metros do Pokémon                                                                                                                                                                                                      |
-| peso_kg         | Peso em Kilos do Pokémon                                                                                                                                                                                                         |
-| taxa_captura | A taxa de captura do Pokémon é um número entre 0 e 255, quanto maior, melhor |
+| Coluna          | Descrição                                                                                                             |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------|
+| numero          | Chave Primária: o número do Pokémon no Pokedex Nacional                                                               |
+| nome            | Nome do Pokémon                                                                                                       |
+| tipo1           | Todas as criaturas Pokémon e seus movimentos recebem determinados tipos. Cada tipo tem vários pontos fortes e         |
+|                 | fracos no ataque e na defesa, ou seja, cada Pokémon tem um tipo que determina sua fraqueza/resistência aos ataques    |
+| tipo2           | O tipo secundário do Pokémon caso ele possua                                                                          |
+| total           | Soma de todas as estatísticas básicas (Pontos de Vida, Ataque, Defesa, Ataque Especial, Defesa Especial e velocidade) |
+| hp              | HP (Hit Points ou Health Points), define quanto dano um Pokémon pode suportar antes de desmaiar                       |
+| ataque          | O ataque base do Pokémon                                                                                              |
+| defesa          | A defesa base do Pokémon                                                                                              |
+| ataque_especial | O ataque especial base do Pokémon                                                                                     |
+| defesa_especial | A defesa especial base do Pokémon                                                                                     |
+| velocidade      | A velocidade base do Pokémon                                                                                          |
+| geracao         | Número da geração em que o Pokémon foi introduzido                                                                    |
+| lendario        | Valor Booleano que indica se o Pokémon é lendário ou não                                                              |
+| cor             | A cor do Pokémon                                                                                                      |
+| altura_m        | Altura em metros do Pokémon                                                                                           |
+| peso_kg         | Peso em Kilos do Pokémon                                                                                              |
+| taxa_captura    | A taxa de captura do Pokémon é um número entre 0 e 255, quanto maior, melhor                                          |
 
 ### Observações
 
@@ -78,4 +79,3 @@ Para este projeto, sua tarefa é marcar usando a sintaxe do HTML5, um formulári
 * [Basic native form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Basic_native_form_controls)
 * [The HTML5 input types](https://developer.mozilla.org/en-US/docs/Learn/Forms/HTML5_input_types)
 * [Other form controls](https://developer.mozilla.org/en-US/docs/Learn/Forms/Other_form_controls)
-

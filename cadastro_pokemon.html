@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro de Pokémon</title>
+</head>
+<body>
+	<header>
+		<h1>Cadastro de Pokémon</h1>
+	</header>
+	<main>
+		<form>
+
+			<label for="numero">Número</label><br>
+			<input type="number" name="numero" id="numero" min="0" value="0" required><br><br>
+
+			<label for="nome">Nome</label><br>
+			<input type="text" name="nome" id="nome" maxlength="20" required><br><br>
+
+			<label for="tipo1">Tipo 1</label><br>
+			<select id="tipo1" name="tipo1" style="width:200px;">
+				<option value="Aço">Aço</option>
+				<option value="Água">Água</option>
+				<option value="Dragão">Dragão</option>
+				<option value="Elétrico">Elétrico</option>
+				<option value="Fada">Fada</option>
+				<option value="Fantasma">Fantasma</option>
+				<option value="Fogo">Fogo</option>
+				<option value="Gelo">Gelo</option>
+				<option value="Inseto">Inseto</option>
+				<option value="Lutador">Lutador</option>
+				<option value="Normal">Normal</option>
+				<option value="Pedra">Pedra</option>
+				<option value="Planta">Planta</option>
+				<option value="Psíquico">Psíquico</option>
+				<option value="Sombrio">Sombrio</option>
+				<option value="Terra">Terra</option>
+				<option value="Venenoso">Venenoso</option>
+				<option value="Voador">Voador</option>
+			</select><br><br>
+
+			<label for="tipo2">Tipo 2</label><br>
+			<select id="tipo2" name="tipo2" style="width:200px;">
+				<option value="">Nenhum</option>
+				<option value="Aço">Aço</option>
+				<option value="Água">Água</option>
+				<option value="Dragão">Dragão</option>
+				<option value="Elétrico">Elétrico</option>
+				<option value="Fada">Fada</option>
+				<option value="Fantasma">Fantasma</option>
+				<option value="Fogo">Fogo</option>
+				<option value="Gelo">Gelo</option>
+				<option value="Inseto">Inseto</option>
+				<option value="Lutador">Lutador</option>
+				<option value="Normal">Normal</option>
+				<option value="Pedra">Pedra</option>
+				<option value="Planta">Planta</option>
+				<option value="Psíquico">Psíquico</option>
+				<option value="Sombrio">Sombrio</option>
+				<option value="Terra">Terra</option>
+				<option value="Venenoso">Venenoso</option>
+				<option value="Voador">Voador</option>
+			</select><br><br>
+
+			<label for="total">Total</label><br>
+			<input type="number" name="total" id="total" min="1" value="1" required><br><br>
+
+			<label for="hp">HP</label><br>
+			<input type="number" name="hp" id="hp" min="1" max="255" value="1" style="width:193px;" required><br><br>
+
+			<label for="ataque">Ataque</label><br>
+			<input type="number" name="ataque" id="ataque" min="0" value="0" required><br><br>
+
+			<label for="defesa">Defesa</label><br>
+			<input type="number" name="defesa" id="defesa" min="0" value="0" required><br><br>
+
+			<label for="ataque_especial">Ataque Especial</label><br>
+			<input type="number" name="ataque_especial" id="ataque_especial" min="0" value="0" required><br><br>
+
+			<label for="defesa_especial">Defesa Especial</label><br>
+			<input type="number" name="defesa_especial" id="defesa_especial" min="0" value="0" required><br><br>
+
+			<label for="velocidade">Velocidade</label><br>
+			<input type="number" name="velocidade" id="velocidade" min="0" value="0" required><br><br>
+
+			<label for="geracao">Geração</label><br>
+			<select id="geracao" name="geracao" style="width:200px;">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+			</select><br><br>
+
+			<input type="checkbox" id="lendario" name="lendario">
+			<label for="lendario">Lendário</label><br><br>
+
+			<label for="cor">Cor</label><br>
+			<select id="cor" name="cor" style="width:200px;">
+				<option value="Amarelo">Amarelo</option>
+				<option value="Azul">Azul</option>
+				<option value="Branco">Branco</option>
+				<option value="Cinza">Cinza</option>
+				<option value="Marrom">Marrom</option>
+				<option value="Preto">Preto</option>
+				<option value="Rosa">Rosa</option>
+				<option value="Roxo">Roxo</option>
+				<option value="Verde">Verde</option>
+				<option value="Vermelho">Vermelho</option>
+			</select><br><br>
+
+			<label for="altura">Altura (m)</label><br>
+			<input type="number" name="altura" id="altura" min="0" value="0" step=".01" required><br><br>
+
+			<label for="peso">Peso (kg)</label><br>
+			<input type="number" name="peso" id="peso" min="0" value="0" step=".1" required><br><br>
+
+			<label for="taxa_captura">Taxa de Captura</label><br>
+			<input type="number" name="taxa_captura" id="taxa_captura" min="0" max="255" value="0" style="width:193px;" required><br><br>
+
+			<input type="submit" value="Cadastrar">
+		</form>
+	</main>
+</body>
+</html>
